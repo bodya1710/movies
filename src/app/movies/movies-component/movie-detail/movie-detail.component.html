@@ -1,0 +1,26 @@
+<div class="movie_inf0_wrap">
+  <div>
+    <div>
+      <p class="genres_container">Genres:
+        <a *ngFor="let genre of movieDetail.genres" [routerLink]="['/gender/', genre.id]"> {{genre.name}}</a>
+      </p>
+      <h2>{{movieDetail.title}}</h2>
+      <div class="production_countries_container"><p>Production countries:</p>
+        <p *ngFor="let production of movieDetail.production_countries">{{production.name}}</p>
+      </div>
+
+      <p>{{movieDetail.overview}}</p>
+      <div class="reting_container">
+        <h2 class="rating_num">{{movieDetail.vote_average}}</h2>
+        <p>Rating</p>
+      </div>
+      <p>Runtime: {{movieDetail.runtime}}</p>
+    </div>
+    <div class="production_companies_container">
+      <h2>Production_companies:</h2>
+      <a *ngFor="let companie of movieDetail.production_companies" [routerLink]="['/movie-detail/',companie.id]">
+        <div><p>{{companie.name}}</p></div></a>
+    </div>
+  </div>
+  <img src="{{img}}{{movieDetail.poster_path}}" alt=""/>
+</div>

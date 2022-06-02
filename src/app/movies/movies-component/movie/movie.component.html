@@ -1,0 +1,11 @@
+<div class="movie_card">
+    <img src="{{img}}{{movie.poster_path}}" alt="{{movie.title}}"/>
+  <p>{{movie.title}}</p>
+  <a [routerLink]="['movie-detail/',movie.id]" class="movie_info_link">
+    <div class="movie_info">
+      <h2>{{movie.title}}</h2>
+      <p>{{movie.overview}}</p>
+      <p class="vote_average_container">Rating: {{movie.vote_average}}</p>
+    </div>
+  </a>
+</div>
