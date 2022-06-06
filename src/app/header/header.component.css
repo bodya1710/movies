@@ -1,4 +1,4 @@
-.header{
+.header {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -6,13 +6,15 @@
   border-bottom: 1px solid #a5a1b2;
   padding: 20px 0;
 }
+
 .header a {
   font-size: 20px;
   color: #a5a1b2;
   text-decoration: none;
   padding: 0 10px;
 }
-.header a > img{
+
+.header a > img {
   height: 30px;
   width: 30px;
 }

@@ -9,7 +9,8 @@ import {UrlImgsService} from "../../../urls/url-imgs.service";
 })
 export class MovieComponent implements OnInit {
 
-  constructor(private urlImgsService:UrlImgsService) { }
+  constructor(private urlImgsService: UrlImgsService) {
+  }
 
   @Input()
   movie: IMovies;

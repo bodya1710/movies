@@ -1,4 +1,4 @@
-.movie_inf0_wrap{
+.movie_inf0_wrap {
   height: calc(100vh - 72px);
   padding: 10px 0;
   display: flex;
@@ -6,38 +6,49 @@
   column-gap: 30px;
   color: #d9d7e0;
 }
-.movie_inf0_wrap h2{
+
+.movie_inf0_wrap h2 {
   font-size: 42px;
   font-weight: bold;
   margin-bottom: 15px;
   color: white;
 }
-.movie_inf0_wrap p{
+
+.movie_inf0_wrap p {
   font-size: 18px;
 }
-.movie_inf0_wrap img{
+
+.movie_inf0_wrap img {
   height: 100%;
 }
-.production_countries_container{
+
+.production_countries_container {
   display: flex;
   column-gap: 10px;
   margin-bottom: 20px;
 }
-.reting_container{
+
+.reting_container {
   margin: 15px 0;
 }
-.reting_container h2{
+
+.reting_container h2 {
   margin: 0;
 }
-.production_companies_container{
+
+.production_companies_container {
   margin-top: 20px;
 }
+
 .movie_inf0_wrap a {
   text-decoration: none;
   color: #d9d7e0;
 }
-.production_companies_container h2{
+
+.production_companies_container h2 {
   font-size: 32px;
-}.genres_container{
-   margin: 10px 0;
- }
+}
+
+.genres_container {
+  margin: 10px 0;
+}

@@ -1,0 +1,8 @@
+<div>
+  <div class="nav_genders">
+    <a *ngFor="let genre of genres" [routerLink]="[genre.id]">
+      {{genre.name}}
+    </a>
+  </div>
+  <router-outlet></router-outlet>
+</div>

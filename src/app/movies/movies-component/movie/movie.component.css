@@ -1,4 +1,4 @@
-.movie_card{
+.movie_card {
   display: flex;
   flex-direction: column;
   row-gap: 15px;
@@ -7,26 +7,31 @@
   position: relative;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
-.movie_card img{
+
+.movie_card img {
   width: 100%;
   height: 90%;
 }
-.movie_card p{
-  color:#d9d7e0;
+
+.movie_card p {
+  color: #d9d7e0;
 }
-.movie_card .vote_average_container{
+
+.movie_card .vote_average_container {
   width: 100%;
   text-align: end;
 }
-.movie_info_link{
-  color:#d9d7e0;
+
+.movie_info_link {
+  color: #d9d7e0;
   text-decoration: none;
   position: absolute;
   height: 100%;
   display: block;
 }
-.movie_info{
-  background-color:rgba(0, 0, 0, .6);
+
+.movie_info {
+  background-color: rgba(0, 0, 0, .6);
   height: 100%;
   padding: 8px;
   display: flex;
@@ -38,6 +43,7 @@
   visibility: hidden;
 
 }
-.movie_card:hover .movie_info{
+
+.movie_card:hover .movie_info {
   visibility: visible;
 }

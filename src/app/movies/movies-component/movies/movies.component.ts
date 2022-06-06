@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {MoviesDataService} from "../../movies-services/movies-data.service";
 import {ActivatedRoute} from "@angular/router";
 import {IMovies} from "../../../modules/IMovies";
 
@@ -12,8 +11,7 @@ export class MoviesComponent implements OnInit {
 
   movies: IMovies[];
 
-  constructor(private moviesDataService: MoviesDataService,
-              private activatedRoute: ActivatedRoute) {
+  constructor(private activatedRoute: ActivatedRoute) {
   }
 
   ngOnInit(): void {

@@ -1,3 +1,3 @@
-export interface IProductionCountries{
-  name:string;
+export interface IProductionCountries {
+  name: string;
 }
